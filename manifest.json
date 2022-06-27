@@ -1,0 +1,17 @@
+{
+    "name": "Calculadora Porcentage",
+    "short_name": "calculadora",
+    "theme_color": "#8c46ff",
+    "background_color": "#2d2d2d",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/index.html",
+    "icons": [
+        {
+            "src": "./img/icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+  }

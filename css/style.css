@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-primary: #8C46FF;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: relative;
+    max-width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    padding: 1rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu button{
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.288);
+    color: #fff;
+    cursor: pointer;
+}
+
+#form{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+#form h1{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#form .form-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-input input{
+    font-size: 25px;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #c5c5c5;
+    transition: .3s ease-in-out;
+}
+
+.form-input label{
+    font-size: 20px;
+}
+
+.form-input input:focus{
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.text-bold{
+    font-weight: 800;
+}

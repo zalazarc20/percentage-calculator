@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Pwa</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("sw.js")
+        }
+    </script>
+</head>
+<body>
+
+    <nav class="menu">
+        <button id="btn-porcentage">Porcentage</button>
+        <button id="btn-precio">P/Gramos</button>
+    </nav>
+
+    <div class="container" id="app"></div>
+
+    <script src="js/app.js" type="module"></script>
+    
+</body>
+</html>
