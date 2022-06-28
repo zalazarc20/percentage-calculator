@@ -13,6 +13,6 @@
 - It has words written in Spanish to make it much easier for you.
 
 ### ⚠️ Super complicated mathematical formula used in the app **(sarcasm)** 😂😂
-- To calculate the percentage you need to apply the following 👉 **price * percentaje = (result / 100) * price**
+- To calculate the percentage you need to apply the following 👉 **price * percentage = (result / 100) * price**
 
 💖 code made with love and javascript
