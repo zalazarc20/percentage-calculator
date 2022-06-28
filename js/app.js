@@ -6,12 +6,14 @@ const getResult = (val1, val2, boolean) =>{
     let result;
     
     if(boolean){
-        result = val1 / (100 - val2) * 100;
+        const a = val1 * val2;
+        const b = a / 100;
+        result = b + parseInt(val1);
     }else{
         result = parseInt(val1) / parseInt(val2);
     }
 
-    return `<hr><h2 class="title">Resultado: <span class="text-bold">${boolean ? '$'+result.toFixed(2) : result.toFixed(3) + ' kg'}</span></h2>`;
+    return `<hr><h2 class="title">Resultado: <span class="text-bold">${boolean ? '$'+result : result.toFixed(3) + ' kg'}</span></h2>`;
 }
 
 const Submit = (val1, val2, boolean) => {
